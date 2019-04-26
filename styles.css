@@ -1,0 +1,146 @@
+.intro,
+.midterm-main-supporting{
+  width: 80%;
+  float: right;
+  box-sizing: border-box;
+}
+aside{
+  width: 20%;
+  box-sizing: border-box;
+  position: fixed;
+  border: solid 1px black;
+}
+
+.clear{
+  clear: both;
+}
+
+ 
+html {
+    scroll-behavior: smooth;
+  }
+
+/***************************HEADER*************************/
+header,
+.intro{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 5px;
+    
+}
+h1{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/**********************BODY********************************/
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.midterm-main-supporting{
+  word-spacing: 2px;
+  line-height: 1.6;
+  margin-left: 3px;
+  padding: 10px;
+}
+
+div.pop-culture,
+div.tech,
+div.political,
+div.fashion,
+div.works-cited{
+  border-top: solid 1px black;
+}
+/*ARTICLE HEADERS*/
+h3{
+  font-size: 30px;
+  text-align: center;
+}
+.pop-culture h3{
+  color: white;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(226, 86, 184), 0 0 5px rgb(255, 2, 196);
+}
+.tech h3{
+  color: white;
+  text-shadow: 1px 1px 3px black, 0 0 25px rgb(105, 188, 9), 0 0 5px rgb(79, 142, 5);
+}
+.political h3{
+  color: white;
+  text-shadow: 1px 1px 3px black, 0 0 25px rgb(165, 37, 33), 0 0 5px rgb(143, 0, 0);
+}
+.fashion h3{
+  color: white;
+  text-shadow: 1px 1px 3px black, 0 0 25px rgb(192, 181, 32), 0 0 5px rgb(153, 143, 0);
+}
+.works-cited h3{
+  color: white;
+  text-shadow: 1px 1px 3px black, 0 0 25px rgb(143, 52, 185), 0 0 5px rgb(88, 7, 126);
+}
+
+  /***works cited**/
+div.works-cited ol{
+  word-spacing: 4px;
+  line-height: 1.6;
+  }
+div.works-cited a{
+  text-decoration: underline;
+  color: black;
+  }
+div.works-cited a:hover{
+  color: red;
+  text-decoration: underline red;
+  transition-duration: 1.5s;
+  }
+
+/***********************SIDEBAR***************************/
+.sidebar h3{
+  color:white;
+  text-shadow: 1px 5px 8px black, 0 0 25px rgb(39, 187, 187), 0 0 5px rgb(3, 102, 97);
+}
+.sidebar h3:hover{
+  color:white;
+  text-shadow: 1px 5px 8px black, 0 0 25px rgb(39, 152, 187), 0 0 5px rgb(1, 66, 63);
+}
+.sidebar {
+  position: fixed;
+  border: solid 1px black;
+  }
+  .page-selection{
+  margin: 1em;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .90em; 
+  line-height: 4em;
+  }
+  div.page-selection a{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+    
+  }
+  div.page-selection a:hover{
+  color: red;
+  transition-duration: 2s;
+  }
+
+ul{
+  list-style: none;
+  padding: 3px;
+  }
+/***************************FOOTER*************************/
+footer{
+  margin-top: 50px;
+    
+  }
+footer a{
+  color: black;
+  }
+footer a:hover{
+  color: red;
+  text-decoration: underline red;
+  transition-duration: 1.5s;
+  }
+/*******************MEDIA QUERY*/
