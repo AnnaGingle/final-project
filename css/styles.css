@@ -29,10 +29,8 @@ header,
     
 }
 h1{
-  color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 /**********************BODY********************************/
 body{
@@ -44,6 +42,7 @@ div.midterm-main-supporting{
   line-height: 1.6;
   margin-left: 3px;
   padding: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 div.pop-culture,
@@ -57,7 +56,10 @@ div.works-cited{
 h3{
   font-size: 30px;
   text-align: center;
+  font-family: 'Noto Sans', sans-serif;
 }
+
+/*****
 .pop-culture h3{
   color: white;
    text-shadow: 1px 1px 2px black, 0 0 25px rgb(226, 86, 184), 0 0 5px rgb(255, 2, 196);
@@ -78,6 +80,8 @@ h3{
   color: white;
   text-shadow: 1px 1px 3px black, 0 0 25px rgb(143, 52, 185), 0 0 5px rgb(88, 7, 126);
 }
+***/
+
 /***********PHOTOS***************/
 .float-right-img{
   float: right;
@@ -103,9 +107,14 @@ h3{
   box-sizing: border-box;
  
 }
- #mj{
-  margin-right: 100px;
+/***********BOXES****************/
+#box-1{
+border: solid 3px purple;
+
 }
+
+
+
 
 .brit{
   margin-left: 100px;
@@ -129,13 +138,9 @@ div.works-cited a:hover{
   }
 /***********************SIDEBAR***************************/
 
-.logo{
-  color:white;
-  text-shadow: 1px 5px 8px black, 0 0 25px rgb(39, 187, 187), 0 0 5px rgb(3, 102, 97);
-}
-.logo:hover{
-  color:white;
-  text-shadow: 1px 5px 8px black, 0 0 25px rgb(39, 152, 187), 0 0 5px rgb(1, 66, 63);
+.logo,
+.summary{
+  font-family: 'Open Sans', sans-serif;
 }
 .sidebar {
   position: fixed;
