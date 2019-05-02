@@ -21,20 +21,51 @@ html {
   }
 
 /***************************HEADER*************************/
-header,
-.intro{
+.summary{
   text-align: center;
-  margin-bottom: 30px;
-  margin-top: 5px;
-    
+  color: white;
 }
+
 h1{
-  font-size: 50px;
-  font-family: 'Noto Sans', sans-serif;
+  font-size: 150px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  box-shadow: white;
 }
+
+@keyframes filling {
+  from{
+    background-position: center 25%;
+  }
+  to {
+    background-position: center 50%;
+  }
+}
+
+.container-text {
+  background-image:  url(https://cdn-az.allevents.in/banners/c143962912d67f404aee25c8be1e81bc);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color:  rgb(0, 0, 0);
+  padding-top: 20px;
+  animation: filling 6s ease forwards;
+}
+
 /**********************BODY********************************/
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  margin-left: 5px;
+}
+
+.bg {
+  background: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/diagmonds.png');
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top:0;
+  left:0;
+  z-index: -1;
 }
 
 div.midterm-main-supporting{
@@ -51,12 +82,14 @@ div.political,
 div.fashion,
 div.works-cited{
   border-top: solid 1px black;
+  color: white;
 }
 /*ARTICLE HEADERS*/
 h3{
   font-size: 30px;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
+  color: white;
 }
 
 /*****
@@ -109,12 +142,10 @@ h3{
 }
 /***********BOXES****************/
 #box-1{
-border: solid 3px purple;
-
+  background:rgba(0,0,0,0.5);
+  padding:20px 40px 20px 40px;
+  border-top:1px solid rgba(255,255,255,0.2);
 }
-
-
-
 
 .brit{
   margin-left: 100px;
@@ -126,7 +157,7 @@ div.works-cited ol{
   }
 div.works-cited a{
   text-decoration: underline;
-  color: black;
+  color: white;
   }
 div.works-cited a:hover{
   color: red;
@@ -144,8 +175,8 @@ div.works-cited a:hover{
 }
 .sidebar {
   position: fixed;
-  border: solid 1px black;
   }
+
   .page-selection{
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
@@ -160,7 +191,7 @@ div.works-cited a:hover{
     
   }
   div.page-selection a:hover{
-  color: red;
+  color: rgb(10, 12, 136);
   transition-duration: 2s;
   }
 
