@@ -7,9 +7,9 @@ function getRandomNumber(max) {
 const img = document.querySelector("img");
 const images = [
   "images/20.jpg",
-  "08.jpg",
-  "05.jpg",
-  "13.jpg"
+  "images/07.jpg",
+  "images/08.jpg",
+  "images/19.jpg"
 ];
 
 setInterval(() => {
