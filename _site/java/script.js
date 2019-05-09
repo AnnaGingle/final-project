@@ -6,8 +6,8 @@ function getRandomNumber(max) {
 
 const img = document.querySelector("img");
 const images = [
-  "images/20.jpg",
-  "images/07.jpg",
+  "images/HBO.jpg",
+  "images/HBOO.jpg",
   
 ];
 
