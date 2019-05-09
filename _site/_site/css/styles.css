@@ -4,6 +4,7 @@
   float: right;
   box-sizing: border-box;
 }
+
 aside{
   width: 20%;
   box-sizing: border-box;
@@ -17,7 +18,7 @@ aside{
 
 html {
   scroll-behavior: smooth;
-  }
+}
 
 /***************************HEADER*************************/
 .summary{
@@ -30,10 +31,8 @@ h1{
   font-family: 'Rubik', sans-serif;
   font-weight: bolder;
   text-align: center;
-  
+
 }
-
-
 
 /**********************BODY********************************/
 body{
@@ -59,7 +58,6 @@ body{
   justify-content: center;
   vertical-align: middle;
   text-align: center;
-
   word-spacing: .5px;
   line-height: 3;
   margin-left: 3px;
@@ -82,16 +80,17 @@ div.works-cited{
 
 /*ARTICLE HEADERS*/
 h3{
-  font-size: 30px;
+  font-size: 90px;
   text-align: center;
   font-family: 'Noto Sans', sans-serif;
-  color: black;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: -1px 0 rgb(6, 5, 82), 0 2px rgb(6, 5, 82), 2px 0 rgb(6, 5, 82), 0 -1px rgb(6, 5, 82);
 }
 
-
-
 /***********PHOTOS*******************************/
-.slideshow-container{
+.left-column .slideshow-container{
   width: 50%
 }
 
@@ -144,21 +143,19 @@ h3{
   box-shadow: 10px 10px rgba(128, 128, 128, 0.103);
   height: 500px;
   width: auto;
-  display: block;
-  
+  display: block; 
 }
 
 .left-column{
   float: left;
   width: 50%;
-  
 }
 
 .right-column{
   float: right;
-  width: 50%;
-  
+  width: 50%; 
 }
+
 #box-1-container:after {
   content: "";
   display: table;
@@ -169,11 +166,11 @@ h3{
   justify-content: center;
   vertical-align: middle;
 }
+
 #box-1-container p{
   justify-content: center;
   vertical-align: middle;
   text-align: center;
-
   word-spacing: 2px;
   line-height: 3;
   margin-left: 3px;
@@ -184,19 +181,22 @@ h3{
 div.works-cited ol{
   word-spacing: 4px;
   line-height: 1.6;
-  }
+}
+
 div.works-cited a{
   text-decoration: underline;
   color: white;
-  }
+}
+
 div.works-cited a:hover{
   color: red;
   text-decoration: underline red;
   transition-duration: 1.5s;
-  }
-  img {
-    max-width: 100%;
-  }
+ }
+
+img {
+  max-width: 100%;
+}
 /***********************SIDEBAR***************************/
 .logo,
 .summary{
@@ -205,80 +205,89 @@ div.works-cited a:hover{
 
 .sidebar {
   position: fixed;
-  }
+}
 
-  .page-selection{
+.page-selection{
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
   font-size: .90em; 
   line-height: 4em;
-  }
-  div.page-selection a{
+}
+div.page-selection a{
   display: inline-block;
   color: black;
   text-align: center;
   text-decoration: none;
     
-  }
-  div.page-selection a:hover{
+}
+
+div.page-selection a:hover{
   color: rgb(10, 12, 136);
   transition-duration: 2s;
-  }
+}
 
 .nav-links{
   text-decoration: none;
-  }
-  .nav-links li{
+}
+
+.nav-links li{
   list-style: none;
-  }
-  .nav-links a{
-    color: rgb(226, 226, 226);
-    text-decoration: none;
-    transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: bold;
-    font-size: 14px;
-  }
-  nav:hover .nav-links a{
-    transform: 20px;
-    opacity: .2;
-    filter: blur(1px);
-  }
-  nav .nav-links a:hover{
-    font-size: 17px;
-    opacity: 1;
-    filter: blur(0);
-  }
-  ul li a:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.5s;
-    transform-origin: right;
-    transform: scaleX 20px;
-    z-index: -1;
-  }
-  ul li a:hover:before{
-    transition: transform 0.5s;
-    transform-origin: left;
-    transform: scaleX 10px;
-  }
+}
+
+.nav-links a{
+  color: rgb(226, 226, 226);
+  text-decoration: none;
+  transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+nav:hover .nav-links a{
+  transform: 20px;
+  opacity: .2;
+  filter: blur(1px);
+}
+
+nav .nav-links a:hover{
+  font-size: 17px;
+  opacity: 1;
+  filter: blur(0);
+}
+
+ul li a:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s;
+  transform-origin: right;
+  transform: scaleX 20px;
+  z-index: -1;
+}
+
+ul li a:hover:before{
+  transition: transform 0.5s;
+  transform-origin: left;
+  transform: scaleX 10px;
+}
+
 /***************************FOOTER*************************/
 footer{
   margin-top: 50px;
-    
-  }
+}
+
 footer a{
   color: black;
-  }
+}
+
 footer a:hover{
   color: red;
   text-decoration: underline red;
   transition-duration: 1.5s;
-  }
+}
 
 
 /*****
