@@ -1,0 +1,323 @@
+.intro,
+.midterm-main-supporting{
+  width: 80%;
+  float: right;
+  box-sizing: border-box;
+}
+aside{
+  width: 20%;
+  box-sizing: border-box;
+  position: fixed;
+ background-color: rgba(0, 155, 194, 0.445)
+}
+
+.clear{
+  clear: both;
+}
+
+html {
+  scroll-behavior: smooth;
+  }
+
+/***************************HEADER*************************/
+.summary{
+  text-align: center;
+  color: black;
+}
+
+h1{
+  font-size: 150px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+
+
+
+/**********************BODY********************************/
+body{
+  font-family: 'Noto Sans', sans-serif;
+  margin-left: 5px;
+}
+
+.bg {
+  background: url('http://completeweddingpackages.com/wp-content/uploads/2019/02/pattern-backgrounds-tumblr-wallpaper-cave-images-best-background-pattern-tumblr-blue.jpg');
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+
+#tech-section .year{
+  text-align: center;
+ 
+}
+#tech-section p{
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+
+  word-spacing: .5px;
+  line-height: 3;
+  margin-left: 3px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.year{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 30px;
+}
+
+div.pop-culture,
+div.tech,
+div.political,
+div.fashion,
+div.works-cited{
+  border-top: solid 1px black;
+  color: white;
+}
+
+/*ARTICLE HEADERS*/
+h3{
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noto Sans', sans-serif;
+  color: black;
+}
+
+
+
+/***********PHOTOS*******************************/
+.slideshow-container{
+  width: 50%
+}
+
+#midterm-into img{
+  width: 500px;
+  height: 500px;
+}
+ .hb-pic{
+   justify-self: center;
+ }
+.v-and-s{
+  height: 500px;
+  width: auto;
+}
+
+/*********** TECH BOX****************/
+.tech-explaination p {
+  justify-content: center;
+  
+}
+#main-supporting img{
+  padding: 30px;
+  justify-content: center;
+}
+.float-right-img{
+  float: right;
+  width: auto;
+  box-sizing: border-box;
+  margin-right: 100px;
+}
+#box-1{
+  background:rgba(0,0,0,0.5);
+  padding:60px 40px 50px 40px;
+  box-shadow: 10px 10px rgba(128, 128, 128, 0.041);
+  display: block;
+  margin: 30px;
+}
+
+/***********BOXES****************/
+#box-1-container{
+  display: grid;
+  align-items: center;
+ 
+}
+
+.black-box{
+  margin: 30px;
+  background:rgba(0,0,0,0.5);
+  padding:10px 40px 50px 40px;
+  box-shadow: 10px 10px rgba(128, 128, 128, 0.103);
+  height: 500px;
+  width: auto;
+  display: block;
+  
+}
+
+.left-column{
+  float: left;
+  width: 50%;
+  
+}
+
+.right-column{
+  float: right;
+  width: 50%;
+  
+}
+#box-1-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#box-1-container img{
+  justify-content: center;
+  vertical-align: middle;
+}
+#box-1-container p{
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+
+  word-spacing: 2px;
+  line-height: 3;
+  margin-left: 3px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/***works cited**************************/
+div.works-cited ol{
+  word-spacing: 4px;
+  line-height: 1.6;
+  }
+div.works-cited a{
+  text-decoration: underline;
+  color: white;
+  }
+div.works-cited a:hover{
+  color: red;
+  text-decoration: underline red;
+  transition-duration: 1.5s;
+  }
+  img {
+    max-width: 100%;
+  }
+/***********************SIDEBAR***************************/
+.logo,
+.summary{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  }
+
+  .page-selection{
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: .90em; 
+  line-height: 4em;
+  }
+  div.page-selection a{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+    
+  }
+  div.page-selection a:hover{
+  color: rgb(10, 12, 136);
+  transition-duration: 2s;
+  }
+
+.nav-links{
+  text-decoration: none;
+  }
+  .nav-links li{
+  list-style: none;
+  }
+  .nav-links a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  nav:hover .nav-links a{
+    transform: 20px;
+    opacity: .2;
+    filter: blur(1px);
+  }
+  nav .nav-links a:hover{
+    font-size: 17px;
+    opacity: 1;
+    filter: blur(0);
+  }
+  ul li a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s;
+    transform-origin: right;
+    transform: scaleX 20px;
+    z-index: -1;
+  }
+  ul li a:hover:before{
+    transition: transform 0.5s;
+    transform-origin: left;
+    transform: scaleX 10px;
+  }
+/***************************FOOTER*************************/
+footer{
+  margin-top: 50px;
+    
+  }
+footer a{
+  color: black;
+  }
+footer a:hover{
+  color: red;
+  text-decoration: underline red;
+  transition-duration: 1.5s;
+  }
+
+
+/*****
+.pop-culture h3{
+  color: white;
+   text-shadow: 1px 1px 2px black, 0 0 25px rgb(226, 86, 184), 0 0 5px rgb(255, 2, 196);
+}
+.tech h3{
+  color: white;
+  text-shadow: 1px 1px 3px black, 0 0 25px rgb(105, 188, 9), 0 0 5px rgb(79, 142, 5);
+}
+.political h3{
+  color: white;
+  text-shadow: 1px 1px 3px black, 0 0 25px rgb(165, 37, 33), 0 0 5px rgb(143, 0, 0);
+}
+.fashion h3{
+  color: white;
+  text-shadow: 1px 1px 3px black, 0 0 25px rgb(192, 181, 32), 0 0 5px rgb(153, 143, 0);
+}
+.works-cited h3{
+  color: white;
+  text-shadow: 1px 1px 3px black, 0 0 25px rgb(143, 52, 185), 0 0 5px rgb(88, 7, 126);
+}
+
+
+.float-left{
+  float: left;
+  width: auto;
+  box-sizing: border-box;
+  margin-left: 70px; 
+}
+.float-right-txt{
+  width: 40%;
+  float: right;
+  box-sizing: border-box;
+}
+.float-left-txt{
+  width: 40%;
+  float: left;
+  box-sizing: border-box;
+}
+***/
