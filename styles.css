@@ -14,8 +14,8 @@ header{
 
 .intro-text{
   position: absolute;
-  top: 40%;
-  left: 15%;
+  top: 20%;
+  left: 10%;
   transform: translate(-20%, -50%);
   font-family: sans-serif;
 }
@@ -50,17 +50,67 @@ header{
   right: 10%;
 }
 
-section {
+/***********SECTION ONE***/
+#section-one {
   min-height: 100vh;
   color: #834d4d;
-  display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
+  font-family: sans-serif;
+  background-color: lightslategray;
+  z-index: -1;
+}
+
+#section-one h2{
+  position: absolute;
+  position: relative;
+  top: 10%;
+  left: 20%;
+  transform: translate(-20%, -50%);
+  width: 60%;
+  font-size: 25px;
+  line-height: 40px;
+  font-size: 30px;
+  
+}
+  /**font-size: 25px;
+  margin-left: 10px;
+  width: 50%;
+  line-height: 40px;
+}**/
+/*******************SOCIAL SECTION**************/
+#social-section{
+  min-height: 100vh;
+  color: lightslategrey;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  font-size: 50px;
+  font-family: sans-serif;
+  background-color: #834d4d;
+}
+#social-section h2{
+  width: 50%;
+  font-size: 30px;
+  line-height: 50px;
+}
+#social-section h3{
+font-size: 60px;
+   
+}
+/*******LINK SECTION*********/
+#links-section{
+  min-height: 100vh;
+  color: #834d4d;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   font-size: 50px;
   font-family: sans-serif;
   background-color: lightslategray;
 }
-
 /*************FOOTER****/
 footer{
   background-color: #090433;
@@ -79,8 +129,8 @@ nav{
   background-color: #090433;
   min-height: 8vh;
   font-family: 'Roboto Condensed', sans-serif;
+ 
 }
-
 .logo{
 color: rgb(226, 226, 226);
 text-transform: uppercase;
@@ -133,6 +183,15 @@ font-family: 'Roboto Condensed', sans-serif;
     display: block;
   }
  
+  .intro-text{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-20%, -50%);
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+  }
  
 
 }
@@ -163,6 +222,7 @@ transform: rotate(-45deg) translate(-5px,6px);
 .nav-active{
   transform: translateX(0%);
 }
+
 
 /**NAV STYLES**/
 .nav-links{
