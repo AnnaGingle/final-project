@@ -14,17 +14,17 @@ header{
 
 .intro-text{
   position: absolute;
-  top: 50%;
-  left: 20%;
+  top: 40%;
+  left: 15%;
   transform: translate(-20%, -50%);
   font-family: sans-serif;
 }
-.intro-text h1{
+.intro-name h1{
   font-size: 60px;
   margin-bottom: 10px;
 }
 
-.intro-text h3{
+.intro-line-2 h3{
   font-size: 35px;
 }
 
@@ -64,6 +64,12 @@ section {
 /*************FOOTER****/
 footer{
   background-color: #090433;
+}
+footer p{
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  font-size: 12px;
 }
 /*NAV STUFF*************************************/ 
 nav{
@@ -127,7 +133,7 @@ font-family: 'Roboto Condensed', sans-serif;
     display: block;
   }
  
-
+ 
 
 }
 
