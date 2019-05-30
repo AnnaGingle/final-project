@@ -187,7 +187,11 @@ font-family: 'Roboto Condensed', sans-serif;
     align-items: center;
   }
  
-
+  #social-section h2{
+    width: 80%;
+    font-size: 20px;
+    line-height: 50px;
+  }
 
 }
 
