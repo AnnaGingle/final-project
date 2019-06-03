@@ -36,6 +36,11 @@ window.addEventListener("scroll", function() {
     //parallax(".small-rose", window.scrollY, 0.4);
     //parallax(".big-rose", window.scrollY, 0.2);
 });
+//HANDSHAKE BUTTON
+window.open(
+    'https://app.joinhandshake.com/users/2744767',
+    '_blank' // <- This is what makes it open in a new window.
+  );
 
 navSlide();
 

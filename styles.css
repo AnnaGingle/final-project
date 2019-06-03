@@ -7,7 +7,7 @@
 /****HEADER/PARALAX***/
 header{
   min-height: 100vh;
-  background: linear-gradient(240deg, #834d4d, #503d3d);
+  background: lightslategray;
   position: relative;
   z-index: -1;
 }
@@ -22,10 +22,12 @@ header{
 .intro-name h1{
   font-size: 60px;
   margin-bottom: 10px;
+  color: white;
 }
 
 .intro-line-2 h3{
   font-size: 35px;
+  color: white;
 }
 
 .chair{
@@ -91,10 +93,32 @@ header{
   line-height: 50px;
 }
 #social-section h3{
-font-size: 60px;
-   
+font-size: 60px; 
 }
-/*******LINK SECTION*********/
+/**************SOCIAL SECTION EXPIENCE*******/
+#social-section-experience{
+  min-height: 100vh;
+  color: lightslategrey;
+  font-size: 50px;
+  font-family: sans-serif;
+  background-color: #834d4d;
+}
+/************SKILLS EXPERIENCE SECTION**********/
+#skills{
+  min-height: 100vh;
+  color: lightslategrey;
+  font-size: 50px;
+  font-family: sans-serif;
+  background-color: #834d4d;
+}
+/*********COMMUNITY SERVICE SECTION*******/
+#community-service{
+  min-height: 100vh;
+  font-size: 50px;
+  font-family: sans-serif;
+  background-color: lightslategray;
+}
+/******LINK SECTION*********/
 #links-section{
   min-height: 100vh;
   color: #834d4d;
@@ -114,6 +138,13 @@ footer p{
   font-family: sans-serif;
   padding: 10px;
   font-size: 12px;
+}
+/**********BUTTONS**********/
+.contact-button{
+  font-family: sans-serif;
+}
+.btn btn-success{
+  font-family: sans-serif;
 }
 /*NAV STUFF*************************************/ 
 nav{
