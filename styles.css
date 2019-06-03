@@ -6,8 +6,6 @@
 
 /****HEADER/PARALAX***/
 header{
-  min-height: 100vh;
-  
   position: relative;
   z-index: -1;
 }
@@ -52,10 +50,13 @@ header{
   right: 10%;
 }
 /*******SECTION BACKGROUND COLORS*********/
-#section-one,
-header{
+#section-one{
   background-color: rgb(61, 61, 73);
 }
+#social-section{
+  background-image: url("http://taylorkmho.com/assets/images/bg-vignette.jpg"); 
+}
+
 /***********SECTION ONE***/
 #section-one {
   min-height: 100vh;
@@ -64,8 +65,6 @@ header{
   align-items: center;
   display: flex;
   font-family: sans-serif;
-  
-  
 }
 
 #section-one h2{
@@ -82,14 +81,14 @@ header{
 }**/
 /*******************SOCIAL SECTION**************/
 #social-section{
-  min-height: 100vh;
-  color: lightslategrey;
+  min-height: 50vh;
+  color: rgb(39, 63, 87);
   justify-content: center;
   align-items: center;
   display: flex;
   font-size: 50px;
   font-family: sans-serif;
-  background-color: #834d4d;
+  
 }
 #social-section h2{
   width: 50%;
@@ -102,10 +101,10 @@ font-size: 60px;
 /**************SOCIAL SECTION EXPIENCE*******/
 #social-section-experience{
   min-height: 100vh;
-  color: lightslategrey;
+  color: black;
   font-size: 50px;
   font-family: sans-serif;
-  background-color: #834d4d;
+  
 }
 /************SKILLS EXPERIENCE SECTION**********/
 #skills{
@@ -144,11 +143,15 @@ footer p{
   font-size: 12px;
 }
 /**********BUTTONS**********/
-.contact-button{
+.contact-button,
+.btn{
   font-family: sans-serif;
+  font-size: 35px;
+  cursor: pointer;
 }
-.btn btn-success{
+.btn{
   font-family: sans-serif;
+  
 }
 /*NAV STUFF*************************************/ 
 nav{
@@ -226,6 +229,10 @@ font-family: 'Roboto Condensed', sans-serif;
     width: 80%;
     font-size: 20px;
     line-height: 50px;
+    margin-left: 10px;
+  }
+  #social-section .contact-button{
+    margin-right: 20px;
   }
 
 }
