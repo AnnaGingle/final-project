@@ -7,7 +7,7 @@
 /****HEADER/PARALAX***/
 header{
   min-height: 100vh;
-  background: lightslategray;
+  
   position: relative;
   z-index: -1;
 }
@@ -51,7 +51,11 @@ header{
   top: 30%;
   right: 10%;
 }
-
+/*******SECTION BACKGROUND COLORS*********/
+#section-one,
+header{
+  background-color: rgb(61, 61, 73);
+}
 /***********SECTION ONE***/
 #section-one {
   min-height: 100vh;
@@ -60,7 +64,7 @@ header{
   align-items: center;
   display: flex;
   font-family: sans-serif;
-  background-color: lightslategray;
+  
   
 }
 
@@ -151,7 +155,7 @@ nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #090433;
+  background-color: rgb(61, 61, 73);
   min-height: 8vh;
   font-family: 'Roboto Condensed', sans-serif;
  
