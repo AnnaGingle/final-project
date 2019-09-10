@@ -51,7 +51,10 @@ header{
 }
 /*******SECTION BACKGROUND COLORS*********/
 #section-one{
-  background-color: rgb(61, 61, 73);
+  background-color: rgb(29, 29, 36);
+}
+header{
+  background-color:rgb(29, 29, 36);
 }
 #social-section{
   background-image: url("http://taylorkmho.com/assets/images/bg-vignette.jpg"); 
@@ -60,7 +63,7 @@ header{
 /***********SECTION ONE***/
 #section-one {
   min-height: 100vh;
-  color: #834d4d;
+  color: rgb(57, 156, 180);
   justify-content: center;
   align-items: center;
   display: flex;
@@ -99,42 +102,136 @@ header{
 font-size: 60px; 
 }
 /**************SOCIAL SECTION EXPIENCE*******/
-#social-section-experience{
+#social-section-about{
   min-height: 100vh;
   color: black;
   font-size: 50px;
   font-family: sans-serif;
   
 }
+#section-one-about{
+  min-height: 60vh;
+  color: #834d4d;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(29, 29, 36);
+  padding: 10px;
+  font-family: sans-serif;
+}
 /************SKILLS EXPERIENCE SECTION**********/
 #skills{
   min-height: 100vh;
   color: lightslategrey;
-  font-size: 50px;
+  font-size: 20px;
   font-family: sans-serif;
-  background-color: #834d4d;
+  background-color: rgb(29, 29, 36);
+ 
+}
+.design,
+.tools{
+  box-sizing: border-box;
+ padding: 20px;
+ text-decoration: none;
+}
+#skills h2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.about-li{
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+  
+  padding: 5px;
+  list-style-type: none;
+}
+.skills-category{
+  float: left;
+}
+
+.about-li{
+  display: inline;
+}
+#links-section-about{
+  min-height: 100vh;
+  color: rgb(29, 29, 36);
+  justify-content: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  background-image: url("http://taylorkmho.com/assets/images/bg-vignette.jpg");
+  display: flex;
+  flex-direction: column;
+}
+#links-section h2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+/*PHOTOS*/
+.skills-img-grid-row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+.skills-imgs{
+  padding: 20px;
 }
 /*********COMMUNITY SERVICE SECTION*******/
 #community-service{
   min-height: 100vh;
-  font-size: 50px;
+  font-size: 20px;
   font-family: sans-serif;
-  background-color: lightslategray;
+  background-color:rgb(29, 29, 36);
+  line-height: 70px;
 }
+#community-service a{
+  color: rgb(57, 156, 180);
+}
+#community-service a:hover{
+  color: red;
+  transition: 2.5s;
+  cursor: pointer;
+}
+#community-service h2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: rgb(57, 156, 180);
+}
+
+.volunteer-category,
+#community-service p{
+  margin-left: 10px;
+  color: rgb(57, 156, 180);
+}
+.volunteer-category{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.skills-imgs{
+  filter: blue;
+}
+
 /******LINK SECTION*********/
 #links-section{
   min-height: 100vh;
   color: #834d4d;
   justify-content: center;
-  align-items: center;
-  display: flex;
-  font-size: 50px;
+  font-size: 40px;
   font-family: sans-serif;
-  background-color: lightslategray;
+  background-color: rgb(29, 29, 36);
+  display: flex;
+  flex-direction: column;
 }
 /*************FOOTER****/
 footer{
-  background-color: #090433;
+  background-color: rgb(29, 29, 36)
 }
 footer p{
   color: white;
@@ -146,19 +243,53 @@ footer p{
 .contact-button,
 .btn{
   font-family: sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   cursor: pointer;
+  background-color: Transparent;
+  border: none;
+  overflow: hidden;
+}
+.contact-button{
+  color: rgb(39, 63, 87);
+}
+.contact-button:hover{
+  color: white;
+  transition: 0.8s;
 }
 .btn{
-  font-family: sans-serif;
-  
+  justify-content: center;
+  align-content: center; 
+  padding: 30px;
+  transition: all 0.5s;
+  color: lightskyblue;
+}
+.btn span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s; 
+}
+.btn:hover span {
+  padding-right: 25px;
+}
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 /*NAV STUFF*************************************/ 
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(61, 61, 73);
+  background-color:rgb(29, 29, 36);
   min-height: 8vh;
   font-family: 'Roboto Condensed', sans-serif;
  
@@ -201,7 +332,7 @@ font-family: 'Roboto Condensed', sans-serif;
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #090433;
+    background-color: rgb(29, 29, 36);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -227,7 +358,7 @@ font-family: 'Roboto Condensed', sans-serif;
  
   #social-section h2{
     width: 80%;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 50px;
     margin-left: 10px;
   }
